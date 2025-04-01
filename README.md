@@ -20,10 +20,6 @@ Marcinho, o magnata dos imóveis, deseja investir em 5 ações dentre 20 dispon�
 - As alocações devem somar exatamente **100%**
 - Apenas a **variância individual** dos ativos é considerada como risco
 
-**Função de fitness:**
-$$
-\text{fitness} = \lambda \cdot (\mu^T x) - (1 - \lambda) \cdot \sum (x_i^2 \cdot \sigma_i^2)
-$$
 
 
 ### 2. **Alocação de Tarefas com Restrições**
@@ -36,5 +32,3 @@ Uma equipe de 10 funcionários deve executar 20 tarefas com diferentes duraçõe
 - A carga horária total de cada funcionário não pode ultrapassar **10 horas**
 
 **Objetivo:** Maximizar a soma das **afinidades atribuídas**.
-
----
